@@ -14,21 +14,23 @@
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Whats the story morning glory!"
-                android:background="#F8BBD0"
+                android:background="#F48FB1"
                 android:textSize="30dp"
-                android:textColor="#FFFFFF"/>
+                android:textColor="#FFFFFF"
+                android:layout_weight="0"/>
 
                 <ImageView
                 android:src="@drawable/cake"
-                android:layout_width="400dp"
+                android:layout_width="match_parent"
                     android:layout_height="500dp"
-                 android:scaleType="centerCrop"/>
+                 android:scaleType="centerCrop"
+                    android:layout_weight="1"/>
     </LinearLayout>
 </RelativeLayout>
