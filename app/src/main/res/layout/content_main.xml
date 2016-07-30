@@ -19,8 +19,11 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:text="Whats the story morning glory!"/>
+                android:layout_height="wrap_content"
+                android:text="Whats the story morning glory!"
+                android:background="#F8BBD0"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"/>
 
                 <ImageView
                 android:src="@drawable/cake"
