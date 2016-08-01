@@ -24,13 +24,15 @@
                 android:background="#F48FB1"
                 android:textSize="30dp"
                 android:textColor="#FFFFFF"
-                android:layout_weight="0"/>
+                android:layout_weight="0"
+                android:layout_alignParentTop="true"/>
 
-                <ImageView
+            <ImageView
                 android:src="@drawable/cake"
                 android:layout_width="match_parent"
-                    android:layout_height="500dp"
-                 android:scaleType="centerCrop"
-                    android:layout_weight="1"/>
+                android:layout_height="500dp"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"
+                android:layout_alignParentBottom="true"/>
     </LinearLayout>
 </RelativeLayout>
